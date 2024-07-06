@@ -48,7 +48,7 @@ app.UseAuthorization();
 // Ensure the routing is correctly set up to default to the login page
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Dashboard}/{action=Index}/{id?}"); 
+    pattern: "{controller=Home}/{action=Index}/{id?}");  
 
 app.MapRazorPages();
 
